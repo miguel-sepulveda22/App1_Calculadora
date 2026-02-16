@@ -43,6 +43,9 @@ Partial Class Form1
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Label1
@@ -60,7 +63,7 @@ Partial Class Form1
         '
         Me.BotonMas.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BotonMas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BotonMas.Location = New System.Drawing.Point(780, 87)
+        Me.BotonMas.Location = New System.Drawing.Point(893, 23)
         Me.BotonMas.Name = "BotonMas"
         Me.BotonMas.Size = New System.Drawing.Size(70, 70)
         Me.BotonMas.TabIndex = 2
@@ -122,7 +125,7 @@ Partial Class Form1
         '
         Me.BotonMenos.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BotonMenos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BotonMenos.Location = New System.Drawing.Point(780, 181)
+        Me.BotonMenos.Location = New System.Drawing.Point(893, 117)
         Me.BotonMenos.Name = "BotonMenos"
         Me.BotonMenos.Size = New System.Drawing.Size(70, 70)
         Me.BotonMenos.TabIndex = 9
@@ -133,7 +136,7 @@ Partial Class Form1
         '
         Me.BotonMulti.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BotonMulti.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BotonMulti.Location = New System.Drawing.Point(780, 282)
+        Me.BotonMulti.Location = New System.Drawing.Point(893, 218)
         Me.BotonMulti.Name = "BotonMulti"
         Me.BotonMulti.Size = New System.Drawing.Size(70, 70)
         Me.BotonMulti.TabIndex = 10
@@ -144,7 +147,7 @@ Partial Class Form1
         '
         Me.BotonDivi.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BotonDivi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BotonDivi.Location = New System.Drawing.Point(780, 381)
+        Me.BotonDivi.Location = New System.Drawing.Point(893, 317)
         Me.BotonDivi.Name = "BotonDivi"
         Me.BotonDivi.Size = New System.Drawing.Size(70, 70)
         Me.BotonDivi.TabIndex = 11
@@ -154,7 +157,7 @@ Partial Class Form1
         'Button0
         '
         Me.Button0.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button0.Location = New System.Drawing.Point(472, 381)
+        Me.Button0.Location = New System.Drawing.Point(585, 317)
         Me.Button0.Name = "Button0"
         Me.Button0.Size = New System.Drawing.Size(70, 70)
         Me.Button0.TabIndex = 12
@@ -164,7 +167,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(472, 88)
+        Me.Button1.Location = New System.Drawing.Point(585, 24)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(70, 70)
         Me.Button1.TabIndex = 13
@@ -174,7 +177,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(572, 88)
+        Me.Button2.Location = New System.Drawing.Point(685, 24)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(70, 70)
         Me.Button2.TabIndex = 14
@@ -184,7 +187,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(674, 88)
+        Me.Button3.Location = New System.Drawing.Point(787, 24)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(70, 70)
         Me.Button3.TabIndex = 15
@@ -194,7 +197,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(472, 181)
+        Me.Button4.Location = New System.Drawing.Point(585, 117)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(70, 70)
         Me.Button4.TabIndex = 16
@@ -204,7 +207,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(572, 181)
+        Me.Button5.Location = New System.Drawing.Point(685, 117)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(70, 70)
         Me.Button5.TabIndex = 17
@@ -214,7 +217,7 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(674, 181)
+        Me.Button6.Location = New System.Drawing.Point(787, 117)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(70, 70)
         Me.Button6.TabIndex = 18
@@ -224,7 +227,7 @@ Partial Class Form1
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(472, 283)
+        Me.Button7.Location = New System.Drawing.Point(585, 219)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(70, 70)
         Me.Button7.TabIndex = 19
@@ -234,7 +237,7 @@ Partial Class Form1
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(572, 283)
+        Me.Button8.Location = New System.Drawing.Point(685, 219)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(70, 70)
         Me.Button8.TabIndex = 20
@@ -244,7 +247,7 @@ Partial Class Form1
         'Button9
         '
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(674, 283)
+        Me.Button9.Location = New System.Drawing.Point(787, 219)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(70, 70)
         Me.Button9.TabIndex = 21
@@ -254,12 +257,44 @@ Partial Class Form1
         'Button10
         '
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(572, 382)
+        Me.Button10.Location = New System.Drawing.Point(787, 318)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(172, 70)
+        Me.Button10.Size = New System.Drawing.Size(70, 70)
         Me.Button10.TabIndex = 22
-        Me.Button10.Text = "Delete"
+        Me.Button10.Text = "<-"
         Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Location = New System.Drawing.Point(685, 317)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(70, 70)
+        Me.Button11.TabIndex = 23
+        Me.Button11.Text = "."
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(346, 24)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton1.TabIndex = 24
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "RadioButton1"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(346, 73)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton2.TabIndex = 25
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "RadioButton2"
+        Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -267,6 +302,9 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1021, 606)
+        Me.Controls.Add(Me.RadioButton2)
+        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
@@ -317,4 +355,7 @@ Partial Class Form1
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
 End Class
